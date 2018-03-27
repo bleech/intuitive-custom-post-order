@@ -638,7 +638,7 @@ class Hicpo
 					}
 				}
 			// taxonomy / category / tag archive
-			elseif ( $wp_query->is_tax || $wp_query->is_category || $wp_query->is_tag ) {
+			} elseif ( $wp_query->is_tax || $wp_query->is_category || $wp_query->is_tag ) {
 				$query_obj = $wp_query->get_queried_object();
 				$taxonomy_obj = get_taxonomy( $query_obj->taxonomy );
 				$post_types = $taxonomy_obj->object_type;
