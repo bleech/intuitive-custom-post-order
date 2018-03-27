@@ -1,0 +1,9 @@
+{
+  "name": "bleech/intuitive-custom-post-order",
+  "description": "",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/bleech/intuitive-custom-post-order",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
